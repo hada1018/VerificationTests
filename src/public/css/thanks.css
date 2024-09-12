@@ -1,0 +1,53 @@
+body {
+    background: url(../img/thankyou.jpg) no-repeat center/cover;
+    height: 96vh;
+    width: 100vh;
+}
+
+.thanks__content {
+    background-color: #00ff00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thanks__heading {
+    position: absolute;
+    top: 41%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Inika;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 39.09px;
+    white-space: nowrap;
+    color: #8B7969;
+}
+
+.form {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 140px;
+    height: 46px;
+    text-align: center;
+    background: #FF0000;
+}
+
+.form__button {
+    text-align: center;
+}
+
+.form__button-submit {
+    width: 140px;
+    height: 46px;
+    border: none;
+    background: #82756A;
+    color: #fff;
+    text-align: center;
+    font-family: Inika;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26.06px;
+}

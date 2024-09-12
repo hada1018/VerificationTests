@@ -1,0 +1,125 @@
+.header {
+    background: #fff;
+    height: 100Px;
+    border-bottom: 1px solid #E0D0DE;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    text-align: center;
+}
+
+.header__logo {
+    color: #8B7969;
+    text-decoration: none;
+    font-family: Inika;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52.12px;
+}
+
+.confirm__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1480px;
+}
+
+.confirm__heading {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.confirm__heading h2 {
+    font-family: "Inika";
+    color: #8B7969;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+.form {
+    font-family: Inika;
+    margin: 0 auto;
+    width: 70%;
+    text-align: left;
+}
+
+.confirm-table {
+    border: 1px solid #E0DFDE;
+}
+
+.confirm-table__inner {
+    width: 100%;
+}
+
+.confirm-table__header {
+    width: 305px;
+    height: 69.92px;
+    padding-left: 40px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26.06px;
+    width: 305px;
+    border-bottom: 1px solid #D0DFDE;
+    background-color: #BAA899;
+    color: #fff;
+}
+
+.confirm-table__text {
+    text-align: left;
+    border-bottom: 1px solid #D0DFDE;
+}
+
+.confirm-table__text input {
+    width: 667px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #8B7969;
+    outline: none;
+    border: none;
+    padding-left: 40px;
+}
+
+.confirm-table__text-content textarea {
+    width: 667px;
+    height: 116.54px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #8B7969;
+    outline: none;
+    border: none;
+    padding-left: 40px;
+    padding-top: 24px;
+    appearance: none;
+    text-align: left;
+    resize: none;
+
+}
+.confirm-table__row:last-child .confirm-table__header,
+.confirm-table__row:last-child .confirm-table__text {
+    border-bottom-width: 0;
+}
+
+.form__button {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.form__button-submit {
+    width: 120px;
+    height: 42px;
+    border: none;
+    background: #82756A;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.form__button-correction {
+    margin-left: 50px;
+    border: none;
+    color: #8B7969;
+    font-weight: 400;
+    font-size: 18px;
+}

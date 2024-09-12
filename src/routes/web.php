@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\CheckController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [CheckController::class, 'index']);
+Route::get('/confirm', [CheckController::class, 'confirm']);
+Route::get('/thanks', [CheckController::class, 'thanks']);
+Route::get('/admin', [CheckController::class, 'admin']);

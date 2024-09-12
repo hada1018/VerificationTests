@@ -1,0 +1,133 @@
+.header {
+    background: #fff;
+    height: 100Px;
+    border-bottom: 1px solid #E0D0DE;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    text-align: center;
+}
+
+.header__logo {
+    color: #8B7969;
+    text-decoration: none;
+    font-family: Inika;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52.12px;
+}
+
+.check-form__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1480px;
+}
+
+.check-form__heading {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.check-form__heading h2 {
+    font-family: "Inika";
+    color: #8B7969;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+.form {
+    font-family: Inika;
+    margin: 0 auto;
+    width: 80%;
+    text-align: left;
+}
+
+.form__group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__group--input-text input {
+    width: 347.47px;
+    height: 50px;
+    appearance: none;
+    color: #BEB1A6;
+    background-color: #FBFBFB;
+    border: 1px solid #E3DED9;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+
+.form__group--item input {
+    width: 148.87px;
+    height: 50px;
+    appearance: none;
+    color: #8B7969;
+    background-color: #F4F4F4;
+    border: 1px solid #E3DED9;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+
+.form__label--required {
+    color: #ff0000;
+}
+
+.form__error {
+    height: 20px;
+    color: #ff0000;
+    text-align: left;
+}
+
+.form__select--gender {
+    width: 102.48;
+    height: 50px;
+    color: #8B7969;
+    background-color: #F4F4F4;
+    border: 1px solid #E3DED9;
+    font-weight: 400;
+    font-size: 17px;
+    padding-left: 10px;
+    text-align: left;
+}
+
+.form__select--type {
+    width: 223.04;
+    height: 50px;
+    color: #8B7969;
+    background-color: #F4F4F4;
+    border: #E3DED9;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23.45px;
+    padding-left: 10px;
+    text-align: left;
+}
+
+.form__button-submit {
+    width: 102.48px;
+    height: 50px;
+    border: 1px solid #8B7969;
+    background-color: #82756A;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23.45px;
+}
+
+.form__button-reset {
+    width: 102.48px;
+    height: 50px;
+    border: 1px solid #D9C6B5;
+    background: #D9C6B5;
+    color: #FFFF;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23.45px;
+}
